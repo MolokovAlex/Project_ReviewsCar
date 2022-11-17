@@ -1,0 +1,22 @@
+
+b'[
+    {
+        "comment_email": "w1@mail.ru",
+        "comment_car": "VAZ-2110",
+        "comment_date_publ": "2020.01.01",
+        "comment_text_comment": "help"
+    },
+    {
+        "comment_email": "w2@mail.ru",
+        "comment_car": "Fusion",
+        "comment_date_publ": "2020.01.01",
+        "comment_text_comment": "good"
+    },
+    {
+        "comment_email": "w3@mail.ru",
+        "comment_car": "Land Cruiser",
+        "comment_date_publ": "2020.01.01",
+        "comment_text_comment": "very good"
+    }
+]'
+
