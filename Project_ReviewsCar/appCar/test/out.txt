@@ -1,0 +1,44 @@
+http://localhost:8000/api/country/
+id_country: 1
+country_name: Russian Federation
+
+id_country: 2
+country_name: Germany
+
+id_country: 3
+country_name: Japan
+
+id_country: 4
+country_name: USA
+
+
+http://localhost:8000/api/manuf/
+id_manuf: 1
+manuf_name: VAZ
+manuf_country: 1
+
+id_manuf: 2
+manuf_name: GAZ
+manuf_country: 1
+
+id_manuf: 3
+manuf_name: Toyota
+manuf_country: 3
+
+id_manuf: 4
+manuf_name: VW
+manuf_country: 2
+
+id_manuf: 5
+manuf_name: Audi
+manuf_country: 2
+
+id_manuf: 6
+manuf_name: Ford
+manuf_country: 2
+
+
+http://localhost:8000/api/car/
+
+http://localhost:8000/api/comment/
+
