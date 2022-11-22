@@ -2,14 +2,18 @@ from rest_framework import serializers
 from ..models import Country, Manuf , Car, Comment
 
 
-# class CountrySerializer(serializers.Serializer):
-#     country_name = serializers.CharField(max_length=150)
+class ManyfSer(serializers.ModelSerializer):
+    class Meta:
+        model = Manuf
+        fields = ('id_manuf', 'manuf_name')
+
 class CountrySerializer(serializers.ModelSerializer):
-    # manyf = ManufSerializer(many=True, read_only=True)
+    manyf = ManyfSer(many=True, read_only=True)
     # manyf = serializers.CharField(source='manuf_name', max_length=150)
     class Meta:
         model = Country
-        fields = ('id_country', 'country_name')#, 'manyf')
+        # fields = ('id_country', 'country_name')#, 'manyf')
+        fields = ('id_country', 'country_name', 'manyf')
 
 # class ManufSerializer(serializers.Serializer):
 #     manuf_name = serializers.CharField(max_length=150)
